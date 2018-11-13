@@ -1,0 +1,32 @@
+D:\workspace_csharp\StravaPower\code\bin\Debug\Strava Forms V2.exe
+D:\workspace_csharp\StravaPower\code\bin\Debug\Strava Forms V2.pdb
+D:\workspace_csharp\StravaPower\code\bin\Debug\Newtonsoft.Json.dll
+D:\workspace_csharp\StravaPower\code\bin\Debug\System.Data.dll
+D:\workspace_csharp\StravaPower\code\bin\Debug\System.dll
+D:\workspace_csharp\StravaPower\code\bin\Debug\System.Drawing.dll
+D:\workspace_csharp\StravaPower\code\bin\Debug\System.Net.Http.dll
+D:\workspace_csharp\StravaPower\code\bin\Debug\System.Windows.Forms.DataVisualization.dll
+D:\workspace_csharp\StravaPower\code\bin\Debug\System.Windows.Forms.dll
+D:\workspace_csharp\StravaPower\code\obj\Debug\Strava-Forms-V2.csprojAssemblyReference.cache
+D:\workspace_csharp\StravaPower\code\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\workspace_csharp\StravaPower\code\obj\Debug\Strava-Forms-V2.csproj.GenerateResource.cache
+D:\workspace_csharp\StravaPower\code\obj\Debug\Strava-Forms-V2.csproj.CoreCompileInputs.cache
+D:\workspace_csharp\StravaPower\code\obj\Debug\Strava-Forms-V2.csproj.CopyComplete
+D:\workspace_csharp\StravaPower\code\obj\Debug\Strava Forms V2.exe
+D:\workspace_csharp\StravaPower\code\obj\Debug\Strava Forms V2.pdb
+D:\workspace_csharp\StravaPower\stravapower\code\bin\Debug\Strava Forms V2.exe
+D:\workspace_csharp\StravaPower\stravapower\code\bin\Debug\Strava Forms V2.pdb
+D:\workspace_csharp\StravaPower\stravapower\code\bin\Debug\Newtonsoft.Json.dll
+D:\workspace_csharp\StravaPower\stravapower\code\bin\Debug\System.Data.dll
+D:\workspace_csharp\StravaPower\stravapower\code\bin\Debug\System.dll
+D:\workspace_csharp\StravaPower\stravapower\code\bin\Debug\System.Drawing.dll
+D:\workspace_csharp\StravaPower\stravapower\code\bin\Debug\System.Net.Http.dll
+D:\workspace_csharp\StravaPower\stravapower\code\bin\Debug\System.Windows.Forms.DataVisualization.dll
+D:\workspace_csharp\StravaPower\stravapower\code\bin\Debug\System.Windows.Forms.dll
+D:\workspace_csharp\StravaPower\stravapower\code\obj\Debug\Strava-Forms-V2.csprojAssemblyReference.cache
+D:\workspace_csharp\StravaPower\stravapower\code\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\workspace_csharp\StravaPower\stravapower\code\obj\Debug\Strava-Forms-V2.csproj.GenerateResource.cache
+D:\workspace_csharp\StravaPower\stravapower\code\obj\Debug\Strava-Forms-V2.csproj.CoreCompileInputs.cache
+D:\workspace_csharp\StravaPower\stravapower\code\obj\Debug\Strava-Forms-V2.csproj.CopyComplete
+D:\workspace_csharp\StravaPower\stravapower\code\obj\Debug\Strava Forms V2.exe
+D:\workspace_csharp\StravaPower\stravapower\code\obj\Debug\Strava Forms V2.pdb

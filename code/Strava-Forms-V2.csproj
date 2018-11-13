@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{96BFF1FA-6E25-4D5B-8C47-08BA7EBC1455}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <LangVersion>7.3</LangVersion>
+    <AssemblyName>Strava Forms V2</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms.DataVisualization\v4.0_4.0.0.0__31bf3856ad364e35\System.Windows.Forms.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Users\l001263\AppData\Local\Apps\2.0\GAQK7MZD.DEQ\K8Y2CAJY.89A\stra..tion_815b61cc82d5989e_0001.0001_3c03cccb512128cd\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strava.Activities\Activity.cs" />
+    <Compile Include="Strava.Activities\ActivityLap.cs" />
+    <Compile Include="Strava.Activities\ActivityMeta.cs" />
+    <Compile Include="Strava.Activities\ActivityParameter.cs" />
+    <Compile Include="Strava.Activities\ActivityReceivedEventArgs.cs" />
+    <Compile Include="Strava.Activities\ActivitySummary.cs" />
+    <Compile Include="Strava.Activities\ActivityType.cs" />
+    <Compile Include="Strava.Activities\ActivityZone.cs" />
+    <Compile Include="Strava.Activities\ClimbCategory.cs" />
+    <Compile Include="Strava.Activities\Comment.cs" />
+    <Compile Include="Strava.Activities\DistributionBucket.cs" />
+    <Compile Include="Strava.Activities\ExplorerResult.cs" />
+    <Compile Include="Strava.Activities\ExplorerSegment.cs" />
+    <Compile Include="Strava.Activities\Leaderboard.cs" />
+    <Compile Include="Strava.Activities\LeaderboardEntry.cs" />
+    <Compile Include="Strava.Activities\LeaderboardParameter.cs" />
+    <Compile Include="Strava.Activities\Map.cs" />
+    <Compile Include="Strava.Activities\Photo.cs" />
+    <Compile Include="Strava.Activities\ResourceState.cs" />
+    <Compile Include="Strava.Activities\Summary.cs" />
+    <Compile Include="Strava.Api\Endpoints.cs" />
+    <Compile Include="Strava.Api\Limit.cs" />
+    <Compile Include="Strava.Api\Limits.cs" />
+    <Compile Include="Strava.Api\Usage.cs" />
+    <Compile Include="Strava.Api\UsageChangedEventArgs.cs" />
+    <Compile Include="Strava.Athletes\Athlete.cs" />
+    <Compile Include="Strava.Athletes\AthleteMeta.cs" />
+    <Compile Include="Strava.Athletes\AthleteParameter.cs" />
+    <Compile Include="Strava.Athletes\AthleteSummary.cs" />
+    <Compile Include="Strava.Athletes\Gender.cs" />
+    <Compile Include="Strava.Authentication\AccessToken.cs" />
+    <Compile Include="Strava.Authentication\AuthCodeReceivedEventArgs.cs" />
+    <Compile Include="Strava.Authentication\IAuthentication.cs" />
+    <Compile Include="Strava.Authentication\LocalWebServer.cs" />
+    <Compile Include="Strava.Authentication\Scope.cs" />
+    <Compile Include="Strava.Authentication\StaticAuthentication.cs" />
+    <Compile Include="Strava.Authentication\TokenReceivedEventArgs.cs" />
+    <Compile Include="Strava.Authentication\WebAuthentication.cs" />
+    <Compile Include="Strava.Clients\ActivityClient.cs" />
+    <Compile Include="Strava.Clients\AthleteClient.cs" />
+    <Compile Include="Strava.Clients\BaseClient.cs" />
+    <Compile Include="Strava.Clients\ClubClient.cs" />
+    <Compile Include="Strava.Clients\EffortClient.cs" />
+    <Compile Include="Strava.Clients\GearClient.cs" />
+    <Compile Include="Strava.Clients\RouteClient.cs" />
+    <Compile Include="Strava.Clients\SegmentClient.cs" />
+    <Compile Include="Strava.Clients\StatsClient.cs" />
+    <Compile Include="Strava.Clients\StravaClient.cs" />
+    <Compile Include="Strava.Clients\StreamClient.cs" />
+    <Compile Include="Strava.Clients\UploadClient.cs" />
+    <Compile Include="Strava.Clubs\Club.cs" />
+    <Compile Include="Strava.Clubs\ClubEvent.cs" />
+    <Compile Include="Strava.Clubs\ClubSummary.cs" />
+    <Compile Include="Strava.Clubs\ClubType.cs" />
+    <Compile Include="Strava.Clubs\SportType.cs" />
+    <Compile Include="Strava.Common\Coordinate.cs" />
+    <Compile Include="Strava.Common\Dimension.cs" />
+    <Compile Include="Strava.Common\Framework.cs" />
+    <Compile Include="Strava.Common\MapType.cs" />
+    <Compile Include="Strava.Common\PolylineDecoder.cs" />
+    <Compile Include="Strava.Common\Unmarshaller.cs" />
+    <Compile Include="Strava.Filters\AgeFilter.cs" />
+    <Compile Include="Strava.Filters\GenderFilter.cs" />
+    <Compile Include="Strava.Filters\StringConverter.cs" />
+    <Compile Include="Strava.Filters\TimeFilter.cs" />
+    <Compile Include="Strava.Filters\WeightFilter.cs" />
+    <Compile Include="Strava.Gear\Bike.cs" />
+    <Compile Include="Strava.Gear\BikeType.cs" />
+    <Compile Include="Strava.Gear\GearSummary.cs" />
+    <Compile Include="Strava.Gear\Shoes.cs" />
+    <Compile Include="Strava.Http\AsyncResponseReceivedEventArgs.cs" />
+    <Compile Include="Strava.Http\ImageLoader.cs" />
+    <Compile Include="Strava.Http\ResponseReceivedEventArgs.cs" />
+    <Compile Include="Strava.Http\WebRequest.cs" />
+    <Compile Include="Strava.Routes\Route.cs" />
+    <Compile Include="Strava.Routes\SubType.cs" />
+    <Compile Include="Strava.Segments\Segment.cs" />
+    <Compile Include="Strava.Segments\SegmentEffort.cs" />
+    <Compile Include="Strava.Segments\SegmentSummary.cs" />
+    <Compile Include="Strava.Statistics\AllRideTotals.cs" />
+    <Compile Include="Strava.Statistics\AllRunTotals.cs" />
+    <Compile Include="Strava.Statistics\RecentRideTotals.cs" />
+    <Compile Include="Strava.Statistics\RecentRunTotals.cs" />
+    <Compile Include="Strava.Statistics\Stats.cs" />
+    <Compile Include="Strava.Statistics\YearToDateRideTotals.cs" />
+    <Compile Include="Strava.Statistics\YearToDateRunTotals.cs" />
+    <Compile Include="Strava.Streams\ActivityStream.cs" />
+    <Compile Include="Strava.Streams\SegmentEffortStream.cs" />
+    <Compile Include="Strava.Streams\SegmentStream.cs" />
+    <Compile Include="Strava.Streams\SegmentStreamType.cs" />
+    <Compile Include="Strava.Streams\StreamResolution.cs" />
+    <Compile Include="Strava.Streams\StreamType.cs" />
+    <Compile Include="Strava.Upload\CheckStatus.cs" />
+    <Compile Include="Strava.Upload\CurrentUploadStatus.cs" />
+    <Compile Include="Strava.Upload\DataFormat.cs" />
+    <Compile Include="Strava.Upload\FileExtension.cs" />
+    <Compile Include="Strava.Upload\UploadStatus.cs" />
+    <Compile Include="Strava.Upload\UploadStatusCheck.cs" />
+    <Compile Include="Strava.Upload\UploadStatusCheckedEventArgs.cs" />
+    <Compile Include="Strava.Utilities\DateConverter.cs" />
+    <Compile Include="Strava.Utilities\GoogleImageLoader.cs" />
+    <Compile Include="WindowsFormsApplication1.Properties\Resources.cs" />
+    <Compile Include="WindowsFormsApplication1.Properties\Settings.cs" />
+    <Compile Include="WindowsFormsApplication1\Activities_data.cs" />
+    <Compile Include="WindowsFormsApplication1\Adv_stats.cs" />
+    <Compile Include="WindowsFormsApplication1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsFormsApplication1\IniFile.cs" />
+    <Compile Include="WindowsFormsApplication1\JOB_Activities_Stats.cs" />
+    <Compile Include="WindowsFormsApplication1\JOB_Athlete_data.cs" />
+    <Compile Include="WindowsFormsApplication1\JOB_Charts.cs" />
+    <Compile Include="WindowsFormsApplication1\JOB_Common_Parameters.cs" />
+    <Compile Include="WindowsFormsApplication1\JOB_Gear.cs" />
+    <Compile Include="WindowsFormsApplication1\JOB_strava_Client.cs" />
+    <Compile Include="WindowsFormsApplication1\JOB_Utilities.cs" />
+    <Compile Include="WindowsFormsApplication1\Logger.cs" />
+    <Compile Include="WindowsFormsApplication1\Manual_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsFormsApplication1\Moving_stats.cs" />
+    <Compile Include="WindowsFormsApplication1\Power_stats.cs" />
+    <Compile Include="WindowsFormsApplication1\Program.cs" />
+    <Compile Include="WindowsFormsApplication1\Single_activity_data.cs" />
+    <Compile Include="WindowsFormsApplication1\Stats.cs" />
+    <Compile Include="WindowsFormsApplication1\StreamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WindowsFormsApplication1\Form1.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
